@@ -17,7 +17,7 @@ class ConfigurationWindowController: NSWindowController {
 	@IBOutlet weak var terrifyingRadio: NSButton!
 
 	override var windowNibName: NSNib.Name {
-        return NSNib.Name(rawValue: "Configuration")
+        return "Coniguration";
 	}
 
 
