@@ -28,7 +28,7 @@ class Preferences: NSObject {
     static let birthdayDidChangeNotification = Notification.Name(rawValue: "Preferences.birthdayDidChangeNotification")
     static let motivationLevelDidChangeNotification = Notification.Name(rawValue: "Preferences.motivationLevelDidChangeNotification")
 
-	var birthday: Date? {
+    @objc dynamic var birthday: Date? {
 		get {
             let timestamp = defaults?.object(forKey: "Birthday") as? TimeInterval
 			return timestamp.map { Date(timeIntervalSince1970: $0) }

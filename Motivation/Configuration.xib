@@ -43,7 +43,7 @@
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         </datePickerCell>
                         <connections>
-                            <binding destination="zet-Ww-APq" name="value" keyPath="self.birthday" id="5QU-Rg-OWe"/>
+                            <binding destination="zet-Ww-APq" name="value" keyPath="self.birthday" id="2eB-mM-Q8Z"/>
                             <outlet property="nextKeyView" destination="SYp-OG-PUb" id="8Eg-2u-hwW"/>
                         </connections>
                     </datePicker>

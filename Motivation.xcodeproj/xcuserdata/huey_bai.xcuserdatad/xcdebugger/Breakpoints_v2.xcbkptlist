@@ -7,31 +7,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E3BA20D9-6F57-4E16-A2B0-B626E5CF2A1A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Motivation/AgeView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "159"
-            endingLineNumber = "159"
-            landmarkName = "birthdayDidChange(notification:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0AB1D23C-DF04-4E7C-BE85-EBB02DA72C49"
-            shouldBeEnabled = "Yes"
+            uuid = "CED9D235-9530-4056-84A5-A3F64E167F8C"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Motivation/Preferences.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "birthday"
             landmarkType = "24">
          </BreakpointContent>
