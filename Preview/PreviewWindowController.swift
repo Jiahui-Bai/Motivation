@@ -20,7 +20,9 @@ class PreviewWindowController: NSWindowController {
 
 	override func windowDidLoad() {
 		super.windowDidLoad()
-
+        if let sheet = screenSaver.configureSheet {
+            window?.beginSheet(sheet, completionHandler: nil)
+        }
 		window?.contentView = screenSaver
 
         Timer.scheduledTimer(timeInterval: screenSaver.animationTimeInterval, target: screenSaver,

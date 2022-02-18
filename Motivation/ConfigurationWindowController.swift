@@ -15,9 +15,9 @@ class ConfigurationWindowController: NSWindowController {
 	@IBOutlet weak var lightRadio: NSButton!
 	@IBOutlet weak var moderateRadio: NSButton!
 	@IBOutlet weak var terrifyingRadio: NSButton!
-
+    
 	override var windowNibName: NSNib.Name {
-        return "Coniguration";
+        return NSNib.Name(rawValue: "Configuration")
 	}
 
 

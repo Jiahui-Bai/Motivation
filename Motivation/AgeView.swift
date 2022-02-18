@@ -25,7 +25,9 @@ class AgeView: ScreenSaverView {
 		return label
 	}()
 
-	private var configurationWindowController: NSWindowController = ConfigurationWindowController()
+    private var configurationWindowController: NSWindowController = {
+        return ConfigurationWindowController()
+    }()
 
 	private var motivationLevel: MotivationLevel
 
@@ -44,13 +46,13 @@ class AgeView: ScreenSaverView {
 
 	override init!(frame: NSRect, isPreview: Bool) {
 		motivationLevel = Preferences().motivationLevel
-		super.init(frame: frame, isPreview: isPreview)
-		initialize()
+        super.init(frame: frame, isPreview: isPreview)
+        initialize()
 	}
 
 	required init?(coder: NSCoder) {
 		motivationLevel = Preferences().motivationLevel
-		super.init(coder: coder)
+        super.init(coder: coder)
 		initialize()
 	}
 
@@ -88,11 +90,11 @@ class AgeView: ScreenSaverView {
 	}
 
     override var hasConfigureSheet: Bool {
-        get{ return true }
+         return true
     }
 
     override var configureSheet: NSWindow? {
-        get { return configurationWindowController.window }
+        return configurationWindowController.window
 	}
 	
 
