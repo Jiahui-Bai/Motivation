@@ -26,8 +26,7 @@ class PreviewWindowController: NSWindowController {
         Timer.scheduledTimer(timeInterval: screenSaver.animationTimeInterval, target: screenSaver,
                              selector: #selector(ScreenSaverView.animateOneFrame), userInfo: nil, repeats: true)
 	}
-
-
+    
 	// MARK: - Actions
 
 	@IBAction func showConfiguration(sender: AnyObject?) {

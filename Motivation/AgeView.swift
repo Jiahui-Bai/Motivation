@@ -25,9 +25,7 @@ class AgeView: ScreenSaverView {
 		return label
 	}()
 
-	private lazy var configurationWindowController: NSWindowController = {
-		return ConfigurationWindowController()
-	}()
+	private var configurationWindowController: NSWindowController = ConfigurationWindowController()
 
 	private var motivationLevel: MotivationLevel
 
@@ -90,11 +88,11 @@ class AgeView: ScreenSaverView {
 	}
 
     override var hasConfigureSheet: Bool {
-		return true
-	}
+        get{ return true }
+    }
 
     override var configureSheet: NSWindow? {
-		return configurationWindowController.window
+        get { return configurationWindowController.window }
 	}
 	
 
