@@ -4,13 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Resources/Configuration.nib/keyedobjects-101300.nib</key>
+		<key>Resources/Configuration.nib</key>
 		<data>
-		3H1sGJrZrRprotvXLFnSlpfscA4=
-		</data>
-		<key>Resources/Configuration.nib/keyedobjects.nib</key>
-		<data>
-		3QmLiCBPaZVoEUvTFFmvgMOSLiM=
+		kBYIt4eRvKp9rw0WbYXz+SIBVSQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -150,26 +146,11 @@
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftos" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: 835862228@qq.com (SJKD7CFZ3X)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
-		<key>Resources/Configuration.nib/keyedobjects-101300.nib</key>
+		<key>Resources/Configuration.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3H1sGJrZrRprotvXLFnSlpfscA4=
-			</data>
 			<key>hash2</key>
 			<data>
-			6bHVZP80gh/dp369FlcjR4jWrPOOiZbpmfMyRrSkmQo=
-			</data>
-		</dict>
-		<key>Resources/Configuration.nib/keyedobjects.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3QmLiCBPaZVoEUvTFFmvgMOSLiM=
-			</data>
-			<key>hash2</key>
-			<data>
-			4JkzmfBwQ4DIXoxjnAfcuOy3bHBx8o4L7bSEf/i9wa0=
+			MxMbjPMDJVl9pPL98+Vcv7yCrmYTxl7pf0zSvRE+xu4=
 			</data>
 		</dict>
 	</dict>
